@@ -1,5 +1,5 @@
 /**
- * @author i.asanov <i.asanov@corp.mail.ru>
+ * @author ifrops <ifrops@gmail.com>
  */
 
 
@@ -28,17 +28,17 @@ function Ok()
   description.value = description.value.trim();
 
   if (!code.value.length) {
-    alert("Пожалуйста, укажите HTML код видео.");
+    alert("Please enter the code video.");
     return false;
   }
 
   if (!title.value.length) {
-    alert("Пожалуйста, укажите заголовок для видео.");
+    alert("Please enter the title.");
     return false;
   }
 
   if (!preview.value.length) {
-    alert("Пожалуйста, укажите путь к изображению для данного видео.");
+    alert("Please enter the image preview URL.");
     return false;
   }
 
