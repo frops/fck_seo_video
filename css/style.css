@@ -1,0 +1,21 @@
+.table {
+    width: 100%;
+}
+.table tr td:nth-child(1) {
+    width: 30%;
+}
+.table tr td:nth-child(2) {
+    width: 70%;
+}
+.table tr td:nth-child(2) input, .table tr td:nth-child(2) textarea {
+    width: 100%;
+}
+.table tr td:nth-child(2) textarea {
+    height: 80px;
+}
+p.small {
+    font-size: 11px;
+    color: #aaa;
+    padding: 0;
+    margin: 0;
+}
