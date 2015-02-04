@@ -1,6 +1,8 @@
-# Schema.org markup of videos for FckEditor
+# Schema.org markup of videos for FCKEditor (SEO)
 
-### Plugin for inserting video into fckeditor redactor
+### Plugin for inserting video using special markup from schema.org
+
+Link to guide by Google: https://support.google.com/webmasters/answer/2413309
 
 ### Info
 
