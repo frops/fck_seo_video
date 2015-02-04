@@ -53,9 +53,11 @@ This plugin uses **only required parameters**:
 ```
 
 ### Install
-1 - Copy folder **video** into **editor/plugin**;
+1 - Copy folder of plugin into **editor/plugin**;
 
-2 - Add/modify code in fckconfig.js: 
+2 - Rename **fck_seo_video** to **video**;
+
+3 - Add/modify code in fckconfig.js: 
 ```javascript
 FCKConfig.Plugins.Add('video');
 ...
@@ -63,7 +65,7 @@ FCKConfig.ProtectedSource.Add( /(<meta(.*?)\/>)/gi );
 ...
 FCKConfig.ProtectedTags = 'meta' ;
 ```
-3 - Change FCKConfig.ToolbarSets["Default"]:
+4 - Change FCKConfig.ToolbarSets["Default"]:
 
 ![FCKConfig.ToolbarSets](http://clip.corp.mail.ru/clip/m223/1423042971-clip-16kb-syjWga64qWZW.png)
 
