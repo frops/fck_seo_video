@@ -1,4 +1,6 @@
-# Schema.org markup of videos for FCKEditor (SEO)
+# DEPRECATED
+> This is no longer supported
+## Schema.org markup of videos for FCKEditor (SEO)
 
 ### Plugin for inserting video using special markup from schema.org
 
